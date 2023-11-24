@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+header {
+    background: #FFF;
+    box-shadow: 0px 1.64744px 8.2372px 0px rgba(0, 0, 0, 0.10);
+    padding: 20px;
+}
+
+.container {
+    width: calc(100% - 120px);
+    margin: auto;
+}
+
+header .container {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav ul {
+    flex-wrap: wrap;
+    display: flex;
+    gap: 20px;
+}
+
+nav li {
+    font-family: Poppins;
+
+
+}
+
+nav a {
+    color: #101928;
+}
+
+.logo {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.logo img {
+
+
+    width: 25px;
+
+
+}
+
+.logo .text {
+    width: 85px;
+}
+
+ul .active {
+    font-weight: 800;
+}
+
+.auth {
+    flex-wrap: wrap;
+    display: flex;
+    gap: 20px;
+    font-family: Inter;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+
+
+}
+
+.auth .log {
+      border-radius: 5px;
+    border: 0.412px solid #545BE8;
+    color: #545BE8;
+    padding: 5.954px 30.181px;
+
+}
+
+.auth .reg {
+    color: #fff;
+    padding: 5.954px 30.181px;
+    border-radius: 5.119px;
+    background: #545BE8;
+    border-radius: 5px;
+
+}
+.auth .log:hover{
+    transition:0.5s;
+    color: #fff;
+    padding: 5.954px 30.181px;
+     
+    background: #545BE8;
+
+
+}
+
+.auth .reg:hover{
+    transition: 0.5s;
+    background-color: #fff;
+    color:#545BE8;
+    border:0.412px solid #545BE8;
+}
