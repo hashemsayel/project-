@@ -8,25 +8,26 @@
     list-style: none;
     text-decoration: none;
     text-transform: capitalize;
+  
 }
 
 header {
     background: #FFF;
     box-shadow: 0px 1.64744px 8.2372px 0px rgba(0, 0, 0, 0.10);
     padding: 20px;
+   position: sticky;
+    top: 0;
 }
 
 .container {
     width: calc(100% - 120px);
     margin: auto;
 }
-
-header .container {
+.row{
     flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 nav ul {
@@ -112,3 +113,7 @@ ul .active {
     color:#545BE8;
     border:0.412px solid #545BE8;
 }
+main{
+    height: 100vh;
+}
+
